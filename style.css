@@ -1,0 +1,40 @@
+body {
+   background: #E5E6E4;
+}
+
+.titre{
+	text-align: center;
+  font-size: 20px;
+  	margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
+  	transform: translateY(-50%);
+  	font-family: 'Raleway', sans-serif;
+  	text-transform: uppercase;
+    
+
+}
+
+.sommaire{
+    text-align: center;
+}
+
+.sommaire ul{
+	list-style: none;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+.sommaire ul li{
+	display: inline-block;
+}
+
+.sommaire ul li a{
+	color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    margin-right: 20px;
+}
+
+.sommaire ul li a:hover{
+	color:white;
+}
