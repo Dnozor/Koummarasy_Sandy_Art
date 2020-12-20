@@ -1,8 +1,8 @@
 <?php 
 
-    $name = $_POST['name'];
-    $visitor_email = $_POST['email'];
-    $message = $_POST['message'];
+    $name = $_GET['name'];
+    $visitor_email = $_GET['email'];
+    $message = $_GET['message'];
 
     $email_from = 'sandidi77lognes@yahoo.fr';
     $email_subject = "Nouveau message ! ;)";
