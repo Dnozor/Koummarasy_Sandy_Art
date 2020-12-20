@@ -1,8 +1,8 @@
 <?php 
 
-    $name = $_GET['name'];
-    $visitor_email = $_GET['email'];
-    $message = $_GET['message'];
+    $name = $_POST['name'];
+    $visitor_email = $_POST['email'];
+    $message = $_POST['message'];
 
     $email_from = 'sandidi77lognes@yahoo.fr';
     $email_subject = "Nouveau message ! ;)";
@@ -15,5 +15,5 @@
     $headers .= "Reply-To: $visitor_email \r\n";
     mail($to,$email_subject,$email_body,$headers);
     header("Location: index.html");
-    echo $thankYou="<p>Thank you!</p>";
+    echo $thankYou="<p>Merci !</p>";
 ?>
