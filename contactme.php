@@ -15,5 +15,5 @@
     $headers .= "Reply-To: $visitor_email \r\n";
     mail($to,$email_subject,$email_body,$headers);
     header("Location: index.html");
-    echo $thankYou="<p>Thank you! We will be in contact with you shortly.</p>";
+    echo $thankYou="<p>Thank you!</p>";
 ?>
